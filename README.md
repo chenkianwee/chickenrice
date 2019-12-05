@@ -1,2 +1,2 @@
-# chickenrice
-a simple python gui dummy app with conda recipe
+# test_app
+test_app

@@ -1,0 +1,34 @@
+package:
+  name: chickenrice
+  version: "0.11"
+  
+source:
+  path: ../
+  
+build:
+  number: 0
+  entry_points:
+    - chickenrice = chickenrice.__main__:main
+  osx_is_app: True
+
+requirements:
+  host:
+    - python
+    - setuptools
+    - pyqtgraph
+    - PyOpenGL
+  run:
+    - python
+    - pyqtgraph
+    - PyOpenGL
+test:
+  imports:
+    - chickenrice
+app:
+ entry: chickenrice
+ summary: This is a chicken rice test app 
+ type: desk
+
+about:
+  home: https://github.com/chenkianwee/test_app
+  license: GPL3
